@@ -2,6 +2,8 @@ ARG IMAGE_TAG=v0.10.1-full
 FROM kestra/kestra:$IMAGE_TAG
 # https://kestra.io/docs/administrator-guide/deployment/docker#create-a-new-image-with-more-binaries
 
+USER root
+
 RUN mkdir -p /app/plugins && \
   apt-get update -y && \
   apt-get install -y --no-install-recommends golang && \
