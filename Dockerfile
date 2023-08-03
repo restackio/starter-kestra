@@ -1,6 +1,5 @@
-ARG IMAGE_TAG=v8.0.0-full
+ARG IMAGE_TAG=v0.10.1-full
 FROM kestra/kestra:$IMAGE_TAG
-
 # https://kestra.io/docs/administrator-guide/deployment/docker#create-a-new-image-with-more-binaries
 
 RUN mkdir -p /app/plugins && \
