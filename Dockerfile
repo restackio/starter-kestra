@@ -1,4 +1,4 @@
-ARG IMAGE_TAG=v0.12.1-full
+ARG IMAGE_TAG=v0.13.5-full
 FROM kestra/kestra:$IMAGE_TAG
 # https://kestra.io/docs/administrator-guide/deployment/docker#create-a-new-image-with-more-binaries
 
